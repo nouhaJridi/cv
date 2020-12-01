@@ -14,6 +14,11 @@ import { CvComponentComponent } from './cv/pages/cv-component/cv-component.compo
 import { ListeComponentComponent } from './cv/components/liste-component/liste-component.component';
 import { ItemComponentComponent } from './cv/components/item-component/item-component.component';
 import { EmbaucheComponentComponent } from './cv/components/embauche-component/embauche-component.component';
+import { NavBarComponent } from './cv/components/nav-bar/nav-bar.component';
+import { FouterComponent } from './cv/components/fouter/fouter.component';
+import { LoginComponent } from './cv/pages/login/login.component';
+import { HomeComponent } from './cv/pages/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +30,11 @@ import { EmbaucheComponentComponent } from './cv/components/embauche-component/e
     DirectiveComponent,
     ColorDirectiveDirective,
     DefaultImagePipe,
-    EmbaucheComponentComponent
+    EmbaucheComponentComponent,
+    NavBarComponent,
+    FouterComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
